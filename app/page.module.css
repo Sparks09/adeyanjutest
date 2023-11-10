@@ -1,32 +1,32 @@
   .button {
-    color: grey;
-    border: 2px solid blue;
-    border-radius: 4px;
+    color: #61BD6C;
+    border: 1px solid #76cd82;
+    border-radius: 8px;
   }
 
    .usersTableContainer {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: linear-gradient(to right, #f2f2f2, #e6f2ff);
+    background-color: linear-gradient(to right, #f4f4f4, #f2f2f2);
   }
   
   .pageSizeSelector {
     margin-bottom: 20px;
     padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #76cd82;
+    border-radius: 8px;
     font-size: 14px;
   }
   
   .userTable {
     width: 100%;
     border-collapse: collapse;
-    border-radius: 4px;
+    border-radius: 8px;
   }
   
   .tableHeader {
-    background-color: #f2f2f2;
+    background-color: #093A4B;
     font-weight: bold;
   }
   
@@ -36,11 +36,11 @@
   }
   
   .tbody .tableheader {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #76cd82;
   }
   
   .tbody .tableHeader:hover {
-    background-color: #f9f9f9;
+    background-color:rgb(148, 194, 154);
   }
   
   .tbody .td {
@@ -56,13 +56,13 @@
   
   .pagination button {
     padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #76cd82;
+    border-radius: 8px;
     cursor: pointer;
   }
   
   .pagination button:hover {
-    background-color: #f9f9f9;
+    background-color: #093A4B;
   }
   
   .pagination .active {
