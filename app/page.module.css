@@ -28,6 +28,7 @@
   .tableHeader {
     background-color: #093A4B;
     font-weight: bold;
+    color: white;
   }
   
   .tableHeaderCell {
@@ -50,7 +51,7 @@
   
   .pagination {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
   }
   
@@ -66,7 +67,7 @@
   }
   
   .pagination .active {
-    background-color: #007bff;
+    background-color: #249108;
     color: #fff;
   }
   

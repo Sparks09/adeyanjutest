@@ -78,6 +78,8 @@ const UsersTable = () => {
       >
         <option value="5">5 users per page</option>
         <option value="10">10 users per page</option>
+        <option value="15">15 users per page</option>
+        <option value="20">20 users per page</option>
       </select>
       <table className={styles.userTable}>
         <thead>
